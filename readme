@@ -1,0 +1,11 @@
+
+RabbitMQ needs to be installed on local
+
+using docker to install rabbit mq dashboard:
+docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
+
+python offlinecameradetector.py 
+
+open another terminal to run:
+
+python cameraemulator.py
